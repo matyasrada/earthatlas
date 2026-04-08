@@ -1,0 +1,68 @@
+[project]
+name = "earthatlas"
+version = "0.1.0"
+description = "Images from Space"
+requires-python = ">=3.12"
+dependencies = [
+"boto3",
+    "cartopy",
+    "dask",
+    "duckdb",
+    "distributed",
+    "fiona",
+    "fsspec",
+    "geopandas",
+    "h5netcdf",
+    "ipykernel",
+    "jupyter",
+    "jupyterlab",
+    "lonboard",
+    "matplotlib",
+    "matplotlib-inline",
+    "mlflow",
+    "nbstripout",
+    "netcdf4",
+    "numpy",
+    "obstore",
+    "odc-geo",
+    "odc-loader",
+    "odc-stac",
+    "pandas",
+    "pre-commit",
+    "pyproj",
+    "pystac",
+    "pystac-client",
+    "python-box",
+    "python-dotenv",
+    "pyyaml",
+    "rasterio",
+    "requests",
+    "rioxarray",
+    "ruamel-yaml",
+    "ruff",
+    "s3fs",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "shapely",
+    "tqdm",
+    "xarray",
+    "xarray-spatial",
+    "zarr",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.format]
+quote-style = "double"

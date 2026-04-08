@@ -1,0 +1,191 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+env/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+.installed.cfg
+.venv/
+venv/
+.python-version
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================
+# C extensions
+# ============================================
+*.so
+
+# ============================================
+# Jupyter / Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_output/
+
+# ============================================
+# IDE / Editors
+# ============================================
+.claude/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Environment / Secrets
+# ============================================
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+**/secrets/
+
+# ============================================
+# Data directories
+# ============================================
+/data/
+/reports/
+/inputs/
+/outputs/
+/tmp/
+/cache/
+/raw/
+/processed/
+/scratch/
+
+# ============================================
+# Raster formats
+# ============================================
+*.tif
+*.tiff
+*.geotiff
+*.jp2
+*.img
+*.hdr
+*.vrt
+*.xml
+
+# GDAL auxiliary files
+*.aux.xml
+*.ovr
+*.rrd
+*.tfw
+*.jgw
+*.pgw
+
+# ============================================
+# NetCDF / HDF / Zarr
+# ============================================
+*.nc
+*.nc4
+*.hdf
+*.hdf4
+*.hdf5
+*.h5
+*.he5
+*.zarr/
+
+# ============================================
+# Vector formats
+# ============================================
+# Shapefiles (all components)
+*.shp
+*.shx
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.cpg
+*.qix
+
+# Other vector
+*.gpkg
+*.geojson
+*.fgb
+*.gdb/
+*.kml
+*.kmz
+*.sqlite
+*.sqlite-journal
+
+# ============================================
+# Tabular / Columnar
+# ============================================
+*.csv
+*.parquet
+*.geoparquet
+*.arrow
+*.feather
+
+# ============================================
+# Other geospatial
+# ============================================
+*.fits
+*.fit
+*.las
+*.laz
+*.ply
+*.xyz
+*.dem
+*.asc
+*.grd
+
+# ============================================
+# STAC / ODC cache
+# ============================================
+.stac-cache/
+.odc-cache/
+
+# ============================================
+# Dask
+# ============================================
+dask-worker-space/
+
+# ============================================
+# MLflow
+# ============================================
+mlruns/
+mlartifacts/
+mlflow.db
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+
+# ============================================
+# Package manager
+# ============================================
+*.lock
